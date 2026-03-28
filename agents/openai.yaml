@@ -1,0 +1,6 @@
+interface:
+  display_name: "Multi-Agent Orchestrator"
+  short_description: "Split work safely across agent backends."
+  default_prompt: "Use $multi-agent-orchestrator to split this task across multiple agents with write-scope isolation, backend-aware routing, and budget controls."
+policy:
+  allow_implicit_invocation: false
